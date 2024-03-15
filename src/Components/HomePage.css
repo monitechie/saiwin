@@ -1,0 +1,64 @@
+.page-container {
+  background-color:rgb(72, 166, 210);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.text {
+  flex: 1; /* This will make the text take up all available space */
+  padding: 20px;
+  color: white;
+  font-size : 20px;
+}
+.vision-mission-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color : white;
+}
+
+.vision,
+.mission {
+  width: 35%; /* Adjust the width as needed */
+  padding : 25px;
+  margin : 25px;
+}
+
+.vision h2,
+.mission h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.vision p,
+.mission p {
+  font-size: 16px;
+}
+
+.image {
+  flex: 1; /* This will make the image take up all available space */
+  text-align: right; /* Align the image to the right */
+  padding: 20px;
+}
+
+.image img {
+  max-width: 100%; /* Ensure the image does not exceed its container width */
+}
+.services-container {
+  /* display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;  */
+  background-color : white;
+}
+.service-cards {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin-bottom: 0px; 
+  padding : 25px;
+  margin: 25px;
+  
+}
